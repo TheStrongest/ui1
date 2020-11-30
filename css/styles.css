@@ -1,0 +1,154 @@
+body {
+  background-color: #eeeeee;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+p {
+  line-height: 2;
+  color: #686d76;
+}
+.header-menu {
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+  padding: 30px;
+}
+.logo {
+  width: 25%;
+  display: inline-block;
+  position: relative;
+  left: 100px
+}
+.menu {
+  display: inline-block;
+  position: absolute;
+  right: 200px;
+
+}
+.menu-link {
+  padding: 0 30px 30px 0;
+  text-decoration: none;
+  color: #686d76;
+}
+
+.menu-link:hover {
+  color: #19d3da;
+}
+
+.hero {
+  background-color: #19d3da;
+  margin-top: 0;
+  padding: 30px;
+  position: relative;
+  height: 535px;
+  width: 100%;
+}
+.intro {
+  display: inline-block;
+  position: absolute;
+  bottom: 180;
+  left: 150px;
+  margin-top: 130px;
+  margin-left: 100px;
+  width: 30%;
+  text-align: left;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.hello {
+  color: white;
+}
+.hero-image {
+  display: inline-block;
+  position: absolute;
+  right: 200px;
+}
+
+.about {
+  margin-top: 80px;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 50px
+}
+.about-me {
+  width: 50%;
+  margin: 0 230px;
+
+
+}
+
+.profile-image {
+  width: 30%;
+  float: left;
+  margin: 0 50px 0 0;
+  border-radius: 5%;
+}
+
+.holla {
+  margin-top: 30px;
+}
+
+.services {
+  padding: 50px;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+}
+.vector-image {
+  width: 15%;
+}
+
+.one {
+  width: 25%;
+  display: inline-block;
+  padding: 50px 10px 0;
+  margin: 30px 10px 0;
+  border: 3px solid #19d3da;
+  border-radius: 10%;
+}
+
+hr {
+  width: 5%;
+  height: 2px;
+  background-color: #19d3da;
+  border-radius: 20%;
+  border-bottom: none;
+
+}
+
+.btn {
+   background: #EC5858;
+   background-image: -webkit-linear-gradient(top, #EC5858, #EC5858);
+   background-image: -moz-linear-gradient(top, #EC5858, #EC5858);
+   background-image: -ms-linear-gradient(top, #EC5858, #EC5858);
+   background-image: -o-linear-gradient(top, #EC5858, #EC5858);
+   background-image: -webkit-gradient(to bottom, #EC5858, #EC5858);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 15px;
+   border: solid #EC5858 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+.footer {
+  background-color: #EC5858;
+  padding: 30px 0;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+  width: 100%;
+}
+.footer-hr {
+  background-color: white;
+}
